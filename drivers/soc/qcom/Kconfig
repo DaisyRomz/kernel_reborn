@@ -383,6 +383,11 @@ config QCOM_SECURE_BUFFER
 	 use this memory and no unauthorized access is made to the
 	 buffer
 
+config SERIAL_NUM
+	bool "Enable Serial Number Proc Interface"
+	help
+	Provide a interface for reading CPU serial number
+
 config QCOM_EARLY_RANDOM
         bool "Initialize random pool very early"
         help
