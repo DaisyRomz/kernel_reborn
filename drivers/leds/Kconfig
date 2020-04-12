@@ -756,6 +756,11 @@ config LEDS_AW2023
 	  This option enables support for the AW2023 RGB LED connected
 	  through I2C. Say Y to enable support for the AW2013 LED.
 
+config FLASHLIGHT_DAISY
+       bool "config flashlight daisy"
+       help
+         config flashlight daisy.
+
 comment "LED Triggers"
 source "drivers/leds/trigger/Kconfig"
 
