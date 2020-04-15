@@ -15,7 +15,7 @@
 	dsi_hx8399c_fhdplus_vid: qcom,mdss_dsi_hx8399c_fhdplus_video {
 		qcom,mdss-dsi-panel-name = "hx8399c fhdplus video mode dsi panel";
 		qcom,mdss-dsi-panel-type = "dsi_video_mode";
-		qcom,mdss-dsi-panel-framerate = <60>;
+		qcom,mdss-dsi-panel-framerate = <64>;
 		qcom,mdss-dsi-virtual-channel-id = <0>;
 		qcom,mdss-dsi-stream = <0>;
 		qcom,mdss-dsi-panel-width = <1080>;
