@@ -7772,7 +7772,7 @@
 			qcom,mdss_dsi_ili7807_fhdplus_video {
 				qcom,mdss-dsi-panel-name = "ili7807 fhdplus video mode dsi panel";
 				qcom,mdss-dsi-panel-type = "dsi_video_mode";
-				qcom,mdss-dsi-panel-framerate = <0x3c>;
+				qcom,mdss-dsi-panel-framerate = <0x3e>;
 				qcom,mdss-dsi-virtual-channel-id = <0x0>;
 				qcom,mdss-dsi-stream = <0x0>;
 				qcom,mdss-dsi-panel-width = <0x438>;
@@ -7838,7 +7838,7 @@
 			qcom,mdss_dsi_hx8399c_fhdplus_video {
 				qcom,mdss-dsi-panel-name = "hx8399c fhdplus video mode dsi panel";
 				qcom,mdss-dsi-panel-type = "dsi_video_mode";
-				qcom,mdss-dsi-panel-framerate = <0x3c>;
+				qcom,mdss-dsi-panel-framerate = <0x3e>;
 				qcom,mdss-dsi-virtual-channel-id = <0x0>;
 				qcom,mdss-dsi-stream = <0x0>;
 				qcom,mdss-dsi-panel-width = <0x438>;
