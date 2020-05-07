@@ -57,6 +57,7 @@
 		cpu@0 {
 			device_type = "cpu";
 			compatible = "arm,cortex-a53\0arm,armv8";
+			clock-frequency = <0x839b6800>;
 			reg = <0x00>;
 			enable-method = "psci";
 			efficiency = <0x400>;
@@ -88,6 +89,7 @@
 		cpu@1 {
 			device_type = "cpu";
 			compatible = "arm,cortex-a53\0arm,armv8";
+			clock-frequency = <0x839b6800>;
 			enable-method = "psci";
 			reg = <0x01>;
 			efficiency = <0x400>;
@@ -112,6 +114,7 @@
 		cpu@2 {
 			device_type = "cpu";
 			compatible = "arm,cortex-a53\0arm,armv8";
+			clock-frequency = <0x839b6800>;
 			enable-method = "psci";
 			reg = <0x02>;
 			efficiency = <0x400>;
@@ -136,6 +139,7 @@
 		cpu@3 {
 			device_type = "cpu";
 			compatible = "arm,cortex-a53\0arm,armv8";
+			clock-frequency = <0x839b6800>;
 			enable-method = "psci";
 			reg = <0x03>;
 			efficiency = <0x400>;
@@ -160,6 +164,7 @@
 		cpu@100 {
 			device_type = "cpu";
 			compatible = "arm,cortex-a53\0arm,armv8";
+			clock-frequency = <0x839b6800>;
 			enable-method = "psci";
 			reg = <0x100>;
 			efficiency = <0x466>;
@@ -191,6 +196,7 @@
 		cpu@101 {
 			device_type = "cpu";
 			compatible = "arm,cortex-a53\0arm,armv8";
+			clock-frequency = <0x839b6800>;
 			enable-method = "psci";
 			reg = <0x101>;
 			efficiency = <0x466>;
@@ -215,6 +221,7 @@
 		cpu@102 {
 			device_type = "cpu";
 			compatible = "arm,cortex-a53\0arm,armv8";
+			clock-frequency = <0x839b6800>;
 			enable-method = "psci";
 			reg = <0x102>;
 			efficiency = <0x466>;
@@ -239,6 +246,7 @@
 		cpu@103 {
 			device_type = "cpu";
 			compatible = "arm,cortex-a53\0arm,armv8";
+			clock-frequency = <0x839b6800>;
 			enable-method = "psci";
 			reg = <0x103>;
 			efficiency = <0x466>;
